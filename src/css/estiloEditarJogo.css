@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-image: url(../img/background.jpeg);
+}
+
+.top{
+    padding:20px;
+    margin-left: 20px;
+    display:flex;
+}
+
+.imagem{
+    width: 400px;
+    height: 500px;
+}
+
+.input-box{
+    margin-top: 70px;
+    margin-left: 30px;
+    height: 20px;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.058);
+    color: white;
+}
+
+.input-descricao{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 250px;
+    width: 98%;
+    background-color: rgba(255, 255, 255, 0.068);
+    color:white;
+}
+
+.btn{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn_Alterar{
+    width: 100px;
+    height: 40px;
+    border-radius: 6px;
+    font-size: medium;
+}
+
+.btn_Alterar:hover{
+    background-color: rgb(164, 161, 161);
+}

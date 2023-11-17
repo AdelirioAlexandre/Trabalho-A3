@@ -1,0 +1,76 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/fundo.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+
+form{
+    background-color: rgba(255, 255, 255, 0.079);
+    max-width: 500px;
+    height: 450px;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+form h1{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(223, 174, 12);
+}
+
+form p{
+    text-align: center;
+    margin-top: 20px 0;
+    color:rgb(223, 174, 12);
+}
+
+.inupt-single{
+    position: relative;
+    margin: 20px 0;
+    
+}
+
+.inupt-single label{
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+}
+
+.input{
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #ccc;
+    padding: 5px;
+    font-size: 17px;
+}
+
+form label{
+    color:white;
+}
+
+form div{
+    margin: 8px;
+}
+
+button{
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+}

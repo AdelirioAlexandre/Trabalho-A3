@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, sans-serif;
+    width: auto;
+    height: 100vh;
+    background-image: url(../img/background.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    background-color: rgba(255, 255, 255, 0.05);
+    max-width: 500px;
+    height: 250px;
+    padding: 100px;
+    border-radius: 20px;
+}
+
+.input{
+    font-size: 25px;
+    color:yellow;
+    display:flex;
+    justify-content: center;
+}
+
+.input-single{
+    font-size: 25px;
+    color: yellow;
+    display:flex;
+    justify-content: center;
+}
+
+button{
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+}

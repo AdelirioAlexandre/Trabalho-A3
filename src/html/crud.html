@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Cadastro</title>
+        <link rel="stylesheet" type="text/css" href="../css/estiloCadastro.css" />
+        <script type="text/javascript" src="../js/cadastro.js"></script>
+    </head>
+    <body>
+        <selection class="form-container">
+            <div class="container">
+                <form action="">
+                    <h1>Cadastro do jogo</h1>
+                    <p>Preencha os campos abaixo para fazer o seu cadastro do seu jogo</p>
+                    <div class="input-single">
+                        <label for="usuario-box">Insira a imagem do jogo:</label>
+                        <input type="file" id="imagem" name="imagem" accept="image/*">
+                    </div>
+                    <div class="input-single">
+                        <input type="text" name="" id="email-box" class="input" placeholder="Digite o nome do jogo:">
+                    </div>
+                    <div class="input-single">
+                        <input type="text" name="" id="confirmeemail-box" class="input" placeholder="Qual a categoria:">
+                    </div>
+                    <div class="input-single">
+                        <input type="text" name="" id="senha-box" class="input" placeholder="Digite a plataforma:">
+                    </div>
+                    <div class="input-single">
+                        <input type="text" name="" id="confirmeSenha-box" class="input" placeholder="Avaliação de 0 a 10">
+                    </div>
+                    <div class="botao">
+                        <button onclick="produto.cadastrar()">Cadastrar</button>
+                    </div>
+                </form>
+            </div>
+        </selection>
+    </body>
+</html>

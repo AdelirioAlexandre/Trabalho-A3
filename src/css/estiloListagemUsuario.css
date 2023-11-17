@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    width: auto;
+    height: 100vh;
+    background-image: url(../img/background.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    color: yellow;
+}
+
+.meio{
+    color: yellow
+}
+
+.lista{
+    padding: 10px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.btn_voltar{
+    height: 35px;
+    width: 70px;
+    font-size: medium;
+    border-radius: 5px;
+}
+
+.btn_voltar:hover{
+    background-color: rgb(175, 175, 175);
+}

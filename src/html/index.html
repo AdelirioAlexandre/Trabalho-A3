@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Haven</title>
+
+    <link rel="shortcut icon" href="img/fav.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--SWIPER CSS ARQUIVO LINK-->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+</head>
+
+<body>
+
+    <!--Barra de Scroll-->
+    <div class="progress">
+        <div class="progress-bar" id="scroll-bar"></div>
+    </div>
+
+    <header>
+
+        <div class="nav container">
+
+            <a href="index.html" class="logo">Game<span>Haven</span></a>
+            <!--icones-->
+            <div class="nav-icons">
+                <i class='bx bx-bell bx-tada' id="bell-icon"><span></span></i>
+                <i class='bx bxs-download'></i>
+                <div class="menu-icon">
+                    <div class="linha1"></div>
+                    <div class="linha2"></div>
+                    <div class="linha3"></div>
+                </div>
+            </div>
+            <!--menu-->
+            <div class="menu">
+                <img src="img/menu.png" alt="">
+                <div class="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#list">LISTAR USUÁRIOS</a></li>
+                    <li><a href="#new">NOVOS JOGOS</a></li>
+                    <li><a href="#profile">PERFIL</a></li>
+                    <li><a href="#crud">CADASTRO DE JOGO</a></li>
+                </div>
+            </div>
+            <!--notificação-->
+            <div class="notificacao">
+                <div class="notificacao-box">
+                    <i class='bx bxs-check-circle'></i>
+                    <p>Parabéns, seu jogo foi baixado com sucesso! </p>
+                </div>
+                <div class="notificacao-box box-color">
+                    <i class="bx bxs-x-circle"></i>
+                    <p>Não foi possível aplicar alterações </p>
+
+                </div>
+
+            </div>
+
+        </div>
+    </header>
+
+    <!--Seleção inicio-->
+    <section class="home container" id="home">
+        <img src="img/home.png" alt="">
+        <div class="home-text">
+            <h1>CIDADE DO <br> FUTURO</h1>
+            <a href="#" class="btn">AVALIE AGORA</a>
+
+        </div>
+    </section>
+    <!--Seleção fim-->
+
+    <!--Inicio da seção-->
+    <section class="trending container" id="trending">
+        <div class="heading">
+            <i class='bx bxs-flame'></i>
+            <h2>JOGOS POPULARES</h2>
+        </div>
+        <!--Content-->
+        <div class="trending-content swiper">
+            <div class="swiper-wrapper">
+                <!--Slide1-->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="img/trending1.webp" alt="">
+                        <div class="box-text">
+                            <h2>CYBERPUNK 2077</h2>
+                            <h2>AÇÃO</h2>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class='bx bxs-star'></i>
+                                    <span>4.7</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt'></i></a>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!--Slide2-->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="img/trending2.jpg" alt="">
+                        <div class="box-text">
+                            <h2>BATTLEFIELD 2024</h2>
+                            <h2>FPS</h2>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class='bx bxs-star'></i>
+                                    <span>4.7</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt'></i></a>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!--Slide3-->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="img/trending3.jpg" alt="">
+                        <div class="box-text">
+                            <h2>ASSASINS CREED</h2>
+                            <h3>AÇÃO</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class='bx bxs-star'></i>
+                                    <span>4.7</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt'></i></a>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!--Slide4-->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="img/trending5.png" alt="">
+                        <div class="box-text">
+                            <h2>GTA V</h2>
+                            <h3>AÇÃO</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class='bx bxs-star'></i>
+                                    <span>4.7</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt'></i></a>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!--Slide1-->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="img/trending4.jpg" alt="">
+                        <div class="box-text">
+                            <h2>GHOST OF TSUSHIMA</h2>
+                            <h3>AÇÃO</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class='bx bxs-star'></i>
+                                    <span>4.7</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt'></i></a>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            <!--Slide4-->
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="img/trending6.jpg" alt="">
+                    <div class="box-text">
+                        <h2>DYING LIGHT 2 </h2>
+                        <h3>AÇÃO</h3>
+                        <div class="rating-download">
+                            <div class="rating">
+                                <i class='bx bxs-star'></i>
+                                <span>4.7</span>
+                            </div>
+                            <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt'></i></a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!--Slide4-->
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="img/trending7.png" alt="">
+                    <div class="box-text">
+                        <h2>HALO INFINITE</h2>
+                        <h3>AÇÃO</h3>
+                        <div class="rating-download">
+                            <div class="rating">
+                                <i class='bx bxs-star'></i>
+                                <span>4.7</span>
+                            </div>
+                            <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt'></i></a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+    </section>
+    <!--fim da seção-->
+
+    <!--inicio de nova seção-->
+    <section class="new container" id="new">
+        <div class="heading">
+            <i class='bx bx-game' ></i>
+            <h2>NOVOS JOGOS</h2>
+        </div>
+        <!--Content-->
+        <div class="new-content">
+        <!--caixa 1-->
+            <div class="box">
+                <img src="img/new1.jpg" alt="">
+                <div class="box-text">
+                    <h2>CYBERPUNK 2077</h2>
+                    <h3>AÇÃO</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <span>4.7</span>
+                        </div>
+                        <a href="download.html" class="box-btn"><i class='bx bx-info-circle'></i></a>
+
+                    </div>
+                </div>
+
+            </div>
+            <!--caixa 2-->
+            <div class="box">
+                <img src="img/new1.jpg" alt="">
+                <div class="box-text">
+                    <h2>CYBERPUNK 2077</h2>
+                    <h3>AÇÃO</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <span>4.7</span>
+                        </div>
+                        <a href="#" class="box-btn"><i class='bx bx-info-circle'></i></a>
+
+                    </div>
+                </div>
+
+            </div>
+            <!--caixa 3-->
+            <div class="box">
+                <img src="img/new1.jpg" alt="">
+                <div class="box-text">
+                    <h2>CYBERPUNK 2077</h2>
+                    <h3>AÇÃO</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <span>4.7</span>
+                        </div>
+                        <a href="#" class="box-btn"><i class='bx bx-info-circle'></i></a>
+
+                    </div>
+                </div>
+
+            </div>
+            <!--caixa4 -->
+            <div class="box">
+                <img src="img/new1.jpg" alt="">
+                <div class="box-text">
+                    <h2>CYBERPUNK 2077</h2>
+                    <h3>AÇÃO</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <span>4.7</span>
+                        </div>
+                        <a href="#" class="box-btn"><i class='bx bx-info-circle'></i></a>
+
+                    </div>
+                </div>
+
+            </div>
+            <!--caixa5 -->
+            <div class="box">
+                <img src="img/new1.jpg" alt="">
+                <div class="box-text">
+                    <h2>CYBERPUNK 2077</h2>
+                    <h3>AÇÃO</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <span>4.7</span>
+                        </div>
+                        <a href="#" class="box-btn"><i class='bx bx-info-circle'></i></a>
+
+                    </div>
+                </div>
+
+            </div>
+            <!--caixa6 -->
+            <div class="box">
+                <img src="img/new1.jpg" alt="">
+                <div class="box-text">
+                    <h2>CYBERPUNK 2077</h2>
+                    <h3>AÇÃO</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <span>4.7</span>
+                        </div>
+                        <a href="#" class="box-btn"><i class='bx bx-info-circle'></i></a>
+
+                    </div>
+                </div>
+
+            </div>
+            <!--caixa7 -->
+            <div class="box">
+                <img src="img/new1.jpg" alt="">
+                <div class="box-text">
+                    <h2>CYBERPUNK 2077</h2>
+                    <h3>AÇÃO</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <span>4.7</span>
+                        </div>
+                        <a href="#" class="box-btn"><i class='bx bx-info-circle'></i></a>
+
+                    </div>
+                </div>
+
+            </div>
+            <!--caixa8 -->
+            <div class="box">
+                <img src="img/new1.jpg" alt="">
+                <div class="box-text">
+                    <h2>CYBERPUNK 2077</h2>
+                    <h3>AÇÃO</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <span>4.7</span>
+                        </div>
+                        <a href="#" class="box-btn"><i class='bx bx-info-circle'></i></a>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!--Próxima página botão-->
+
+            <div class="next-page">
+                <a href="#">Próxima página</a>
+            </div>
+
+
+        </div>
+<!--Fim proxima página-->
+
+    </section>
+    <!--fim da seção-->
+
+    <div class="copyright container">
+        <a href="#" class="logo">GAME<span>HAVEN</span></a>
+        <p>&#169; LK ``)  All Right Reserved </p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Link Swiper-->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!--link JS-->
+    <script src="js/main.js"> </script>
+
+</body>
+
+</html>
